@@ -1,0 +1,101 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .voterstable {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .voterstable th, .voterstable td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .voterstable th {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        .voterstable tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .voterstable a {
+            color: #007bff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        .voterstable a:hover {
+            text-decoration: underline;
+        }
+
+        .registervoter {
+            border: 1px solid #ddd;
+            background: #ffffff;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .registervoter h3 {
+            color: #007bff;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .registervoter label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .registervoter input[type="text"],
+        .registervoter input[type="number"] {
+            width: calc(100% - 22px);
+            height: 40px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        .registervoter input[type="submit"] {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            width: 100%;
+            height: 40px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .registervoter input[type="submit"]:hover {
+            background-color: #0056b3;
+            transform: scale(1.02);
+        }
+
+        .registervoter input[type="submit"]:active {
+            background-color: #004494;
+        }

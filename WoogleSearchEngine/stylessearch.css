@@ -1,0 +1,29 @@
+body{
+    background-color:aqua;
+}
+.image-search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image-result {
+    width: calc(25% - 20px); /* Adjust for column width and spacing */
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.image-result img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 5px;
+}

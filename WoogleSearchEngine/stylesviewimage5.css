@@ -1,0 +1,13 @@
+.image-container {
+    text-align: center;
+}
+
+.full-size-image {
+    max-width: 70%;
+    height: auto;
+}
+
+.image-details {
+    text-align: center;
+    margin-top: 20px;
+}
